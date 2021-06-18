@@ -5,7 +5,7 @@ const fetch = require("node-fetch");
      try{
          uid = await fetch(url).then((uid) => uid.json())
      }catch (e) {
-         console.log("Invaild username or user not found")
+        throw new TypeError("User not found or cant find avatar")
      }
      let skinurl = `https://crafatar.com/avatar/${uid.id}`
      return skinurl

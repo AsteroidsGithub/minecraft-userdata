@@ -14,6 +14,9 @@ mc.GetData("<username>").then(user => console.log(user.id))
 ## Is it begin beginner-friendly
 ### Its pretty easy for beginner
 
-## Is it **buggy**?
+## Whats new?
+### I made more easier for beginners
+### Fixed .GetProfile()
 
+## Is it **buggy**?
 ### The package is at its first version,So it maybe buggy but it will be fixed in upcoming new version
