@@ -1,23 +1,23 @@
 {
-  "name": "minecraft-userdata",
-  "version": "1.0.3",
-  "description": "Simple mojang api npm package",
-  "main": "minecraft-userdata.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "mojang",
-    "mineraft",
-    "userdata",
-    "data",
-    "player"
-  ],
-  "author": "duckynator",
-  "license": "ISC",
-  "dependencies": {
-    "js-base64": "^3.6.1",
-    "minecraft-userdata": "^1.0.2",
-    "node-fetch": "^2.6.1"
-  }
+    "name": "minecraft-users",
+    "version": "1.0.0",
+    "description": "A Faster and Type safe fork of minecraft-userdata",
+    "author": "Jonathan Voss",
+    "types": "index.d.ts",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "keywords": [
+        "mojang",
+        "mineraft",
+        "userdata",
+        "data",
+        "player"
+    ],
+    "license": "ISC",
+    "dependencies": {
+        "js-base64": "^3.6.1",
+        "node-fetch": "^2.6.1"
+    }
 }
